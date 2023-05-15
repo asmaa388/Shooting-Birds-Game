@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="eng">
+	<head>
+        <meta charset="utf-8">
+        <title>page1</title>
+        <link  rel="stylesheet" href="./css/style.css" >      
+	</head>
+    <body>
+
+<!--start login-->
+<div class="form" >
+    <div class="container">
+        <form class="box"  method="get" action="pages/game.html" >
+            <h2> select game level</h2>
+            <select name="branch" >
+                <option value="level one">level one</option>
+            </select>
+            <h2> enter your name</h2>
+            <input id="userName" type="text" name="username" placeholder=" username" required>
+            <input type="submit" name="" value="Go"  >
+        </form>
+    </div>
+</div>
+<div class="form" >
+    <div class="container">
+        <form class="box"  method="post"  >
+            <h1> game birds shooting points</h1>
+            <table >
+                <tr>
+                    <td colspan="2" >
+                        <img src="./images/white.gif" />
+                    </td>
+                    <td colspan="" >
+                        <p style="color:blue;">+5 points</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <img src="./images/black.gif" />
+                    </td>
+                    <td colspan="" >
+                        <p style="color:yellow;">+10 points</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <img src="./images/cyan.gif" />
+                    </td>
+                    <td colspan="" >
+                        <p style="color:red;">-10 points</p>
+                    </td>
+                </tr>
+              
+
+            </table>
+        </form>
+    </div>
+</div>
+<script src="javascript.js"></script>
+ </body>
+ </html>
